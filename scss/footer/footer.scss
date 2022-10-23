@@ -1,0 +1,31 @@
+footer {
+    margin: 0 auto;
+    max-width: 1250px;
+    min-height: 100px;
+    background-color: #e7c8c8;
+    margin-top: 50px;
+
+
+    .footer-container {
+        margin: 0 auto;
+        max-width: 1050px;
+        height: 100px;
+        // background-color:burlywood;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            img {
+                width: 200px;
+                height: 100px;
+            }
+        }
+
+        .copyright {
+            color: #fff;
+            font-size: 16px;
+            font-family: Gillsans;
+        }
+    }
+}
